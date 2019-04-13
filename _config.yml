@@ -24,7 +24,7 @@ linkedin_username: realityfabric
 
 # Build settings
 markdown: kramdown
-theme: wing
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
