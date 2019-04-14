@@ -2,12 +2,13 @@ body {
 	background: #0d0630;
 }
 
+/*
 section {
 	background: #8bbeb2;
 	border: 5px solid #18314f;
 	padding: 5px;
-	width: 50%;
 }
+*/
 
 header {
 	background: #9e9a75;
@@ -25,4 +26,37 @@ footer {
 
 nav a {
 	padding: 5px;
+}
+
+.column {
+	float: left;
+	margin-top: 10px;
+}
+
+.middle {
+	width: 50%;
+	background: #8bbeb2;
+}
+
+.left {
+	width: 20%;
+}
+
+.right {
+	width: 30%;
+}
+
+.column .content {
+	margin: 5%;
+}
+
+@media screen and (max-width: 600px) {
+	.middle {
+		width: 100%;
+	}
+
+	.right, .left {
+		width: 0;
+		display: none;
+	}
 }
