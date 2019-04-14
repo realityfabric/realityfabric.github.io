@@ -1,3 +1,9 @@
+:root {
+	--footer-height: 50px;
+	--main-margin: 10px;
+	--content-margin: 20px;
+}
+
 body {
 	background: #0d0630;
 }
@@ -16,9 +22,22 @@ header {
 	padding: 5px;
 }
 
+.main {
+	margin-top: var(--main-margin);
+	margin-bottom: calc(
+		var(--footer-height)
+			+ var(--main-margin)
+			+ var(--content-margin)
+		);
+	overflow: auto;
+}
+
 footer {
 	position: fixed;
+	height: var(--footer-height);
 	bottom: 0px;
+	left: 0;
+	right: 0;
 	background: #9e9a75;
 	border: 5px solid #18314f;
 	padding: 5px;
@@ -30,7 +49,6 @@ nav a {
 
 .column {
 	float: left;
-	margin-top: 10px;
 }
 
 .middle {
@@ -47,7 +65,7 @@ nav a {
 }
 
 .column .content {
-	margin: 5%;
+	margin: var(--content-margin);
 }
 
 @media screen and (max-width: 600px) {
