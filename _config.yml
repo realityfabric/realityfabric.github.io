@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jessica Fairchild
+title: Reality Fabric
 email: realityfabric@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The official RealityFabric website.
@@ -24,7 +24,7 @@ linkedin_username: realityfabric
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hacker
+# theme: minima
 plugins:
   - jekyll-feed
 

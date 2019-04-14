@@ -1,0 +1,27 @@
+body {
+	background: #0d0630;
+}
+
+section {
+	background: #8bbeb2;
+	border: 5px solid #18314f;
+	padding: 5px;
+}
+
+header {
+	background: #9e9a75;
+	border: 5px solid #18314f;
+	padding: 5px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	background: #9e9a75;
+	border: 5px solid #18314f;
+	padding: 5px;
+}
+
+nav a {
+	padding: 5px;
+}
