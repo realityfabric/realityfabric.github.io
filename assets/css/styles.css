@@ -1,5 +1,5 @@
 :root {
-	--footer-height: 50px;
+	--footer-height: 75px;
 	--main-margin: 10px;
 	--content-margin: 20px;
 }
@@ -41,6 +41,10 @@ footer {
 	background: #9e9a75;
 	border: 5px solid #18314f;
 	padding: 5px;
+}
+
+.profile .social-media a {
+	display: block;
 }
 
 nav a {

@@ -1,0 +1,27 @@
+<section class="social-media">
+	{% if site.github_username %}
+		<a href="https://github.com/{{ site.github_username }}">
+		  <i class="fa fa-github"></i> GitHub
+		</a>
+	{% endif %}
+	{% if site.linkedin_username %}
+		<a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+		  <i class="fa fa-linkedin"></i> LinkedIn
+		</a>
+	{% endif %}
+	{% if site.mastodon_username %}
+		<a href="https://{{ site.mastodon_domain }}/@{{ site.mastodon_username }}">
+		  <i class="fab fa-mastodon"></i> Mastodon
+		</a>
+	{% endif %}
+	{% if site.twitter_username %}
+		<a href="https://twitter.com/{{ site.twitter_username }}">
+		  <i class="fa fa-twitter"></i> Twitter
+		</a>
+	{% endif %}
+	{% if site.tumblr_username %}
+		<a href="https://{{ site.twitter_username }}.tumblr.com/">
+		  <i class="fa fa-Tumblr"></i> Tumblr
+		</a>
+	{% endif %}
+</section>
